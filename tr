@@ -1,0 +1,36 @@
+{
+
+    "hostname":"ch3xr900835",
+    "date":"2018-04-03T21:14:45.124126Z",
+    "healthchecks":[
+        {
+            "check_name":"swapping",
+            "check_data":{
+                "swap_free":"316",
+                "swap_total":"4193984",
+                "swap_used":"99.9925"
+            },
+            "check_name":"system_uptime",
+            "check_data":{
+                "uptime":" 17:14:45 up 77 days, 22:41, 1 user, load average: 0.00, 0.01, 0.05"
+            }
+        }
+    ],
+    "hostname":"ch3xr900835",
+    "date":"2018-04-03T20:36:28.437114Z",
+    "healthchecks":[
+        {
+            "check_name":"{{ item }}",
+            "check_data":{
+                "swap_free":"316",
+                "swap_total":"4193984",
+                "swap_used":"99.9925"
+            },
+            "check_name":"{{ item }}",
+            "check_data":{
+                "uptime":" 14:53:11 up 77 days, 20:19, 1 user, load average: 0.08, 0.05, 0.05"
+            }
+        }
+    ]
+
+}
